@@ -7,3 +7,9 @@
   --text-color: #584d62;
   --font-family: 'Fraunces', serif;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
