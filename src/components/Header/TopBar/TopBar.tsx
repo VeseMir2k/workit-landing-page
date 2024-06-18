@@ -4,7 +4,7 @@ import Button from '../../Button';
 import styles from './TopBar.module.css';
 
 const TopBar = () => (
-  <div className={styles.TopBar}>
+  <div className={styles.topBar}>
     <img src={logo} alt="logo" />
     <Button />
   </div>
