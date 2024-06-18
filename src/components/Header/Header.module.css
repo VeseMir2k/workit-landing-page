@@ -1,4 +1,21 @@
 .header {
+  position: relative;
+  border-bottom: 160px solid transparent;
+  background-clip: padding-box;
   background-color: var(--primary-color);
   padding: 32px 16px 0 16px;
+}
+
+.header::after {
+  display: block;
+  position: absolute;
+  bottom: -160px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-color: var(--primary-color);
+  width: 600px;
+  height: 160px;
+  content: '';
 }
