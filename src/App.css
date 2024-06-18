@@ -11,9 +11,9 @@
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -21,19 +21,19 @@ html {
 }
 
 h1 {
+  font-weight: 600;
   font-size: 50px;
   line-height: 50px;
-  font-weight: 600;
 }
 
 h2 {
+  font-weight: 600;
   font-size: 32px;
   line-height: 48px;
-  font-weight: 600;
 }
 
 h3 {
+  font-weight: 600;
   font-size: 28px;
   line-height: 36px;
-  font-weight: 600;
 }
