@@ -8,7 +8,7 @@ const Button = ({ variant }: { variant: Variant }) => {
   const selectedVariant = variants[variant] || '';
 
   return (
-    <a className={selectedVariant} href="#">
+    <a className={`${styles.button} ${selectedVariant}`} href="#">
       Apply for access
     </a>
   );
