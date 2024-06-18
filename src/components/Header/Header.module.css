@@ -19,3 +19,12 @@
   height: 160px;
   content: '';
 }
+
+.imageHero {
+  position: absolute;
+  bottom: -250px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 320px;
+}
