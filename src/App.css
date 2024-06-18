@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 :root {
   --primary-color: #24053e;
   --secondary-color: #fcf8ff;
   --accent-color: #44ffa1;
   --text-color: #584d62;
-  --font-family: 'Fraunces', serif;
+  --primary-font-family: 'Fraunces', serif;
+  --secondary-font-family: 'Manrope', sans-serif;
 }
 
 * {
@@ -15,7 +17,7 @@
 }
 
 html {
-  font-family: var(--font-family);
+  font-family: var(--primary-font-family);
 }
 
 h1 {

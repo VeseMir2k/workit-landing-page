@@ -1,3 +1,9 @@
-const Button = () => <a href="#">Apply for access</a>;
+import styles from './Button.module.css';
+
+const Button = () => (
+  <a className={styles.button} href="#">
+    Apply for access
+  </a>
+);
 
 export default Button;
