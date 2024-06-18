@@ -1,3 +1,4 @@
+import Button from '../../Button';
 import styles from './Heading.module.css';
 
 const Heading = () => (
@@ -5,6 +6,7 @@ const Heading = () => (
     <h1 className={styles.title}>
       Data <span className={styles.textUnderline}>tailored</span> to your needs.
     </h1>
+    <Button variant="full" />
   </div>
 );
 

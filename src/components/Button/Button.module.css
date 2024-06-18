@@ -1,4 +1,4 @@
-.button {
+.buttonUnderline {
   border-bottom: 3px solid var(--accent-color);
   color: white;
   font-weight: bold;
@@ -7,4 +7,9 @@
   font-family: var(--secondary-font-family);
   letter-spacing: -0.16px;
   text-decoration: none;
+}
+
+.buttonFull {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
 }
