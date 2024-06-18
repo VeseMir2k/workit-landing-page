@@ -6,7 +6,7 @@ const Heading = () => (
     <h1 className={styles.title}>
       Data <span className={styles.textUnderline}>tailored</span> to your needs.
     </h1>
-    <Button variant="full" />
+    <Button variant="full" text="Learn more" />
   </div>
 );
 

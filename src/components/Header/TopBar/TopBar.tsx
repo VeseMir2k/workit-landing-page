@@ -6,7 +6,7 @@ import styles from './TopBar.module.css';
 const TopBar = () => (
   <div className={styles.topBar}>
     <img src={logo} alt="logo" />
-    <Button variant="underline" />
+    <Button variant="underline" text="Apply for access" />
   </div>
 );
 
