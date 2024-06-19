@@ -29,7 +29,9 @@ const ProductBenefits = () => {
     <ProductBenefit key={index} id={index} title={benefit.title} description={benefit.description} />
   ));
 
-  return <div className={styles.productBenefits}>{benefitsList}</div>;
+  const { 'product-benefits': productBenefitsClass } = styles;
+
+  return <div className={productBenefitsClass}>{benefitsList}</div>;
 };
 
 export default ProductBenefits;

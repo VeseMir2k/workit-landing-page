@@ -1,4 +1,4 @@
-.productBenefits {
+.product-benefits {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -8,7 +8,7 @@
   padding: 315px 16px 0;
 }
 
-.productBenefits::after {
+.product-benefits::after {
   display: block;
   position: absolute;
   bottom: -100px;
