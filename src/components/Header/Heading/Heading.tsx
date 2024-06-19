@@ -1,13 +1,17 @@
 import Button from '../../Button';
 import styles from './Heading.module.css';
 
-const Heading = () => (
-  <div className={styles.heading}>
-    <h1 className={styles.title}>
-      Data <span className={styles.textUnderline}>tailored</span> to your needs.
-    </h1>
-    <Button variant="full" text="Learn more" />
-  </div>
-);
+const Heading = () => {
+  const { heading: headingClass, heading__title: titleClass, 'heading__text-underline': textUnderlineClass } = styles;
+
+  return (
+    <div className={headingClass}>
+      <h1 className={titleClass}>
+        Data <span className={textUnderlineClass}>tailored</span> to your needs.
+      </h1>
+      <Button variant="full" text="Learn more" />
+    </div>
+  );
+};
 
 export default Heading;

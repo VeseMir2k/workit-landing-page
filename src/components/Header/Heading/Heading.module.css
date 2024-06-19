@@ -5,13 +5,13 @@
   margin-top: 64px;
 }
 
-.title {
+.heading__title {
   margin-bottom: 40px;
   color: white;
   text-align: center;
 }
 
-.textUnderline {
+.heading__text-underline {
   text-decoration: underline;
   text-decoration-color: var(--accent-color);
   text-decoration-thickness: 3px;
