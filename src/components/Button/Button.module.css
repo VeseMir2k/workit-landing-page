@@ -8,12 +8,12 @@
   text-decoration: none;
 }
 
-.buttonUnderline {
+.button--underline {
   border-bottom: 3px solid var(--accent-color);
   color: white;
 }
 
-.buttonFull {
+.button--full {
   background-color: var(--accent-color);
   padding: 12px 24px;
   color: var(--primary-color);

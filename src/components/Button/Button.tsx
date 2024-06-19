@@ -1,14 +1,19 @@
 import styles from './Button.module.css';
 
-type Variant = 'full' | 'underline';
+type ButtonProps = {
+  variant: 'full' | 'underline';
+  text: string;
+};
 
-const Button = ({ variant, text }: { variant: Variant; text: string }) => {
-  const variants = { full: styles.buttonFull, underline: styles.buttonUnderline };
+const Button = ({ variant, text }: ButtonProps) => {
+  const { button: buttonClass, 'button--full': buttonFullClass, 'button--underline': buttonUnderlineClass } = styles;
+
+  const variants = { full: buttonFullClass, underline: buttonUnderlineClass };
 
   const selectedVariant = variants[variant] || '';
 
   return (
-    <a className={`${styles.button} ${selectedVariant}`} href="#">
+    <a className={`${buttonClass} ${selectedVariant}`} href="#">
       {text}
     </a>
   );

@@ -25,11 +25,11 @@ const benefitsData: Benefit[] = [
 ];
 
 const ProductBenefits = () => {
+  const { 'product-benefits': productBenefitsClass } = styles;
+
   const benefitsList = benefitsData.map((benefit, index) => (
     <ProductBenefit key={index} id={index} title={benefit.title} description={benefit.description} />
   ));
-
-  const { 'product-benefits': productBenefitsClass } = styles;
 
   return <div className={productBenefitsClass}>{benefitsList}</div>;
 };
