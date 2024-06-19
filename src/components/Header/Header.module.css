@@ -21,7 +21,7 @@
   content: '';
 }
 
-.imageHero {
+.header__image-hero {
   position: absolute;
   bottom: -250px;
   left: 50%;
