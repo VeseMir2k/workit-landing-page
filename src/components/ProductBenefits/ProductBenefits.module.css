@@ -3,7 +3,7 @@
   position: relative;
   flex-direction: column;
   gap: 40px;
-  z-index: -1;
+  z-index: 50;
   background-color: var(--secondary-color);
   padding: 315px 16px 0;
 }
@@ -14,9 +14,10 @@
   bottom: -100px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: -1;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   width: 600px;
   height: 160px;
   content: '';
