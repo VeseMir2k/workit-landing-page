@@ -1,11 +1,24 @@
 import styles from './ProductBenefit.module.css';
 
-const ProductBenefit = ({ id, title, description }: { id: number; title: string; description: string }) => {
+type ProductBenefitProps = {
+  id: number;
+  title: string;
+  description: string;
+};
+
+const ProductBenefit = ({ id, title, description }: ProductBenefitProps) => {
+  const {
+    'product-benefit': productBenefitClass,
+    'product-benefit__id': idClass,
+    'product-benefit__title': titleClass,
+    'product-benefit__description': descriptionClass,
+  } = styles;
+
   return (
-    <div className={styles.productBenefit}>
-      <div className={styles.id}>{id + 1}</div>
-      <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
+    <div className={productBenefitClass}>
+      <div className={idClass}>{id + 1}</div>
+      <h3 className={titleClass}>{title}</h3>
+      <p className={descriptionClass}>{description}</p>
     </div>
   );
 };

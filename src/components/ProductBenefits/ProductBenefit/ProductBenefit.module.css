@@ -1,10 +1,10 @@
-.productBenefit {
+.product-benefit {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.id {
+.product-benefit__id {
   margin-bottom: 24px;
   border: 1px solid var(--text-color);
   border-radius: 50%;
@@ -17,11 +17,11 @@
   text-align: center;
 }
 
-.title {
+.product-benefit__title {
   margin-bottom: 16px;
 }
 
-.description {
+.product-benefit__description {
   color: var(--text-color);
   font-size: 16px;
   line-height: 28px;
