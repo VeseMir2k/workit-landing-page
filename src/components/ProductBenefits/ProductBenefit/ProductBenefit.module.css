@@ -1,0 +1,30 @@
+.productBenefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.id {
+  margin-bottom: 24px;
+  border: 1px solid var(--text-color);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+.description {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 28px;
+  font-family: var(--secondary-font-family);
+  text-align: center;
+}

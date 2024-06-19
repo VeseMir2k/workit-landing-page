@@ -1,4 +1,7 @@
 .productBenefits {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   background-color: var(--secondary-color);
-  padding-top: 315px;
+  padding: 315px 16px 0;
 }
