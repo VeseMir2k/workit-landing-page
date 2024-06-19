@@ -1,6 +1,5 @@
 .header {
   position: relative;
-  border-bottom: 160px solid transparent;
   background-clip: padding-box;
   background-color: var(--primary-color);
   padding: 32px 16px 0 16px;
