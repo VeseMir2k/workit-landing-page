@@ -1,5 +1,10 @@
-.demoInvitation {
+.demo-invitation {
   background-color: rebeccapurple;
   width: 100%;
   height: 200px;
+}
+
+.demo-invitation__image-founder {
+  width: 280px;
+  height: 280px;
 }
