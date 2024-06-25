@@ -2,10 +2,11 @@ import styles from './Button.module.css';
 
 type ButtonProps = {
   variant: 'full' | 'underline';
+  href: string;
   text: string;
 };
 
-const Button = ({ variant, text }: ButtonProps) => {
+const Button = ({ variant, href, text }: ButtonProps) => {
   const { button: buttonClass, 'button--full': buttonFullClass, 'button--underline': buttonUnderlineClass } = styles;
 
   const variants = { full: buttonFullClass, underline: buttonUnderlineClass };
@@ -13,7 +14,7 @@ const Button = ({ variant, text }: ButtonProps) => {
   const selectedVariant = variants[variant] || '';
 
   return (
-    <a className={`${buttonClass} ${selectedVariant}`} href="#">
+    <a className={`${buttonClass} ${selectedVariant}`} href={href}>
       {text}
     </a>
   );

@@ -8,7 +8,7 @@ const TopBar = () => {
   return (
     <div className={topBarClass}>
       <img src={logoLight} alt="logo" />
-      <Button variant="underline" text="Apply for access" />
+      <Button variant="underline" href="#" text="Apply for access" />
     </div>
   );
 };

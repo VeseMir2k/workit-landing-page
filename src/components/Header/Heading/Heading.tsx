@@ -9,7 +9,7 @@ const Heading = () => {
       <h1 className={titleClass}>
         Data <span className={textUnderlineClass}>tailored</span> to your needs.
       </h1>
-      <Button variant="full" text="Learn more" />
+      <Button variant="full" href="#" text="Learn more" />
     </div>
   );
 };
