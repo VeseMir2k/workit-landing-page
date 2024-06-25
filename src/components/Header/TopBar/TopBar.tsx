@@ -1,4 +1,4 @@
-import logo from '../../../assets/logo-light.svg';
+import logoLight from '../../../assets/logo-light.svg';
 import Button from '../../Button';
 import styles from './TopBar.module.css';
 
@@ -7,7 +7,7 @@ const TopBar = () => {
 
   return (
     <div className={topBarClass}>
-      <img src={logo} alt="logo" />
+      <img src={logoLight} alt="logo" />
       <Button variant="underline" text="Apply for access" />
     </div>
   );
