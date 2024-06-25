@@ -23,6 +23,7 @@
 }
 
 .demo-invitation__description {
+  margin-bottom: 24px;
   font-size: 16px;
   line-height: 28px;
   font-family: var(--secondary-font-family);
