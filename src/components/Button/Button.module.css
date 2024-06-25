@@ -9,12 +9,24 @@
 }
 
 .button--underline {
+  transition: all 0.1s ease-in;
   border-bottom: 3px solid var(--accent-color);
   color: white;
 }
 
+.button--underline:hover {
+  color: var(--accent-color);
+}
+
 .button--full {
+  transition: all 0.1s ease-in;
+  border: 2px solid var(--accent-color);
   background-color: var(--accent-color);
-  padding: 12px 24px;
+  padding: 8px 20px;
   color: var(--primary-color);
+}
+
+.button--full:hover {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
 }
