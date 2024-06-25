@@ -1,3 +1,4 @@
+import imageFounder from '../../assets/image-founder.webp';
 import Button from '../Button';
 import styles from './DemoInvitation.module.css';
 
@@ -12,7 +13,7 @@ const DemoInvitation = () => {
 
   return (
     <div className={demoInvitationClass}>
-      {/* <img className={imageFounderClass} src={imageFounder} alt="image founder" /> */}
+      <img className={imageFounderClass} src={imageFounder} alt="image founder" />
       <div className={contentClass}>
         <h2 className={titleClass}>Be the first to test</h2>
         <p className={descriptionClass}>
