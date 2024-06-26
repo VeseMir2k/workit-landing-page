@@ -37,3 +37,15 @@
   z-index: 100;
   width: 320px;
 }
+
+@media only screen and (min-width: 768px) {
+  .header::after {
+    bottom: -200px;
+    height: 200px;
+  }
+
+  .header__image-hero {
+    bottom: -350px;
+    width: 520px;
+  }
+}

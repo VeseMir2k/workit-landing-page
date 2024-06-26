@@ -16,3 +16,9 @@
   text-decoration-color: var(--accent-color);
   text-decoration-thickness: 3px;
 }
+
+@media only screen and (min-width: 768px) {
+  .heading__title {
+    width: 560px;
+  }
+}
