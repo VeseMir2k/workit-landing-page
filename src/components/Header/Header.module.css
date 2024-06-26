@@ -13,12 +13,20 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 80;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
   background-color: var(--primary-color);
   width: 600px;
   height: 160px;
   content: '';
+}
+
+@media only screen and (min-width: 500px) {
+  .header::after {
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 1000px;
+  }
 }
 
 .header__image-hero {
