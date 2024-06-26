@@ -17,8 +17,10 @@ const ProductBenefit = ({ id, title, description }: ProductBenefitProps) => {
   return (
     <div className={productBenefitClass}>
       <div className={idClass}>{id + 1}</div>
-      <h3 className={titleClass}>{title}</h3>
-      <p className={descriptionClass}>{description}</p>
+      <div>
+        <h3 className={titleClass}>{title}</h3>
+        <p className={descriptionClass}>{description}</p>
+      </div>
     </div>
   );
 };
