@@ -1,7 +1,4 @@
-import iconFacebook from '../../../assets/icon-facebook.svg';
-import iconInstagram from '../../../assets/icon-instagram.svg';
-import iconTwitter from '../../../assets/icon-twitter.svg';
-import Social from './Social/Social';
+import Social from './Social';
 import styles from './Socials.module.css';
 
 const Socials = () => {
@@ -9,9 +6,9 @@ const Socials = () => {
 
   return (
     <div className={socialsClass}>
-      <Social href="#" icon={iconFacebook} alt="icon facebook" />
-      <Social href="#" icon={iconTwitter} alt="icon twitter" />
-      <Social href="#" icon={iconInstagram} alt="icon instagram" />
+      <Social href="#" icon="facebook" alt="icon facebook" />
+      <Social href="#" icon="twitter" alt="icon twitter" />
+      <Social href="#" icon="instagram" alt="icon instagram" />
     </div>
   );
 };
