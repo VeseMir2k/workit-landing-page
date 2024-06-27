@@ -31,3 +31,10 @@
   line-height: 28px;
   font-family: var(--secondary-font-family);
 }
+
+@media only screen and (min-width: 768px) {
+  .demo-invitation {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}

@@ -33,6 +33,7 @@
 
 @media only screen and (min-width: 768px) {
   .product-benefits {
+    gap: 48px;
     padding: 410px 100px 0;
   }
 }
