@@ -18,6 +18,36 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .heading {
+    position: relative;
+  }
+
+  .heading::before {
+    position: absolute;
+    top: 0;
+    left: -240px;
+    z-index: 200;
+    background-image: url('../../../assets/bg-pattern-1.svg');
+    background-size: 341px auto;
+    background-repeat: no-repeat;
+    width: 341px;
+    height: 317px;
+    content: '';
+  }
+
+  .heading::after {
+    position: absolute;
+    right: -110px;
+    bottom: -80px;
+    z-index: 200;
+    background-image: url('../../../assets/bg-pattern-2.svg');
+    background-size: 174px auto;
+    background-repeat: no-repeat;
+    width: 174px;
+    height: 181px;
+    content: '';
+  }
+
   .heading__title {
     width: 560px;
   }
