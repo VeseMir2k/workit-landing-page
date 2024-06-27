@@ -41,6 +41,17 @@
     padding-left: 40px;
   }
 
+  .demo-invitation::after {
+    position: absolute;
+    bottom: -106px;
+    z-index: 200;
+    background-image: url('../../assets/bg-pattern-3.svg');
+    background-size: 221px auto;
+    width: 221px;
+    height: 212px;
+    content: '';
+  }
+
   .demo-invitation__image-founder {
     position: absolute;
     left: 40px;
