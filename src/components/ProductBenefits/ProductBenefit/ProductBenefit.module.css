@@ -41,4 +41,8 @@
   .product-benefit__title {
     text-align: left;
   }
+
+  .product-benefit__description {
+    text-align: left;
+  }
 }
