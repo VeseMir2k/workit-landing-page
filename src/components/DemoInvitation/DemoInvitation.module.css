@@ -34,7 +34,24 @@
 
 @media only screen and (min-width: 768px) {
   .demo-invitation {
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-start;
     padding-right: 40px;
     padding-left: 40px;
+  }
+
+  .demo-invitation__image-founder {
+    position: absolute;
+    left: 40px;
+  }
+
+  .demo-invitation__content {
+    position: relative;
+    flex-basis: 75%;
+    z-index: 100;
+    margin-top: 150px;
+    padding: 48px 56px 56px;
+    text-align: left;
   }
 }
