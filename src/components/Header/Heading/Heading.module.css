@@ -25,7 +25,7 @@
   .heading::before {
     position: absolute;
     top: 0;
-    left: -240px;
+    left: -265px;
     z-index: 200;
     background-image: url('../../../assets/bg-pattern-1.svg');
     background-size: 341px auto;
@@ -37,7 +37,7 @@
 
   .heading::after {
     position: absolute;
-    right: -110px;
+    right: -135px;
     bottom: -80px;
     z-index: 200;
     background-image: url('../../../assets/bg-pattern-2.svg');
