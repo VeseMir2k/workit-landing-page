@@ -10,7 +10,7 @@
 
 .demo-invitation__image-founder {
   width: 280px;
-  height: 280px;
+  height: auto;
 }
 
 .demo-invitation__content {
@@ -53,5 +53,12 @@
     margin-top: 150px;
     padding: 48px 56px 56px;
     text-align: left;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .demo-invitation__image-founder {
+    width: 320px;
+    height: auto;
   }
 }
