@@ -25,7 +25,6 @@
   .header::after {
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
-
     width: 1000px;
   }
 }
@@ -47,11 +46,31 @@
 
   .header::after {
     bottom: -200px;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    width: 3000px;
     height: 200px;
   }
 
   .header__image-hero {
     bottom: -350px;
     width: 520px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header::after {
+    bottom: -300px;
+    height: 300px;
+  }
+
+  .header__image-hero {
+    width: 767px;
   }
 }
