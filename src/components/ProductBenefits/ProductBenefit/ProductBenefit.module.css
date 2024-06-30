@@ -46,3 +46,20 @@
     text-align: left;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .product-benefit {
+    flex-direction: column;
+    gap: 56px;
+  }
+
+  .product-benefit__title {
+    margin-bottom: 28px;
+    text-align: center;
+  }
+
+  .product-benefit__description {
+    font-size: 18px;
+    text-align: center;
+  }
+}

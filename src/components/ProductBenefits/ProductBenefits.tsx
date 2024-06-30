@@ -25,13 +25,17 @@ const benefitsData: Benefit[] = [
 ];
 
 const ProductBenefits = () => {
-  const { 'product-benefits': productBenefitsClass } = styles;
+  const { 'product-benefits': productBenefitsClass, 'product-benefits__list': listClass } = styles;
 
   const benefitsList = benefitsData.map((benefit, index) => (
     <ProductBenefit key={index} id={index} title={benefit.title} description={benefit.description} />
   ));
 
-  return <div className={productBenefitsClass}>{benefitsList}</div>;
+  return (
+    <div className={productBenefitsClass}>
+      <div className={listClass}>{benefitsList}</div>
+    </div>
+  );
 };
 
 export default ProductBenefits;
