@@ -48,7 +48,7 @@
     bottom: -200px;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
-    width: 3000px;
+    width: 2000px;
     height: 200px;
   }
 
@@ -71,6 +71,7 @@
   }
 
   .header__image-hero {
+    bottom: -500px;
     width: 767px;
   }
 }

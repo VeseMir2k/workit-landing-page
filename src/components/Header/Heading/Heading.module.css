@@ -57,4 +57,12 @@
   .heading {
     width: 1100px;
   }
+
+  .heading::before {
+    left: -310px;
+  }
+
+  .heading::after {
+    right: -220px;
+  }
 }
